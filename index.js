@@ -5,7 +5,7 @@ const fs = require('fs');
 require('dotenv').config();
 
 const app = express();
-const PORT = 3001;
+const PORT = 3002;
 
 // Middleware
 app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
