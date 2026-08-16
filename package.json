@@ -1,0 +1,18 @@
+{
+  "name": "alma-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^2.1.1",
+    "sql.js": "^1.11.0"
+  }
+}
